@@ -16,7 +16,7 @@ fi
 sleep 1
 
 # Show logo
-curl -s https://github.com/halva-dev/halva/blob/main/multiple.sh | bash
+curl -s https://raw.githubusercontent.com/halva-dev/halva/refs/heads/main/logo_script.sh | bash
 
 # Menu
 
