@@ -6,7 +6,7 @@ YELLOW='\033[0;33m'
 BLUE='\033[0;34m'
 PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
-NC='\033[0m' # Нет цвета (сброс цвета)
+NC='\033[0m' # Reset color
 
 # Check if curl is installed and install it if not
 if ! command -v curl &> /dev/null; then
