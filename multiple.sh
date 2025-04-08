@@ -16,17 +16,25 @@ fi
 sleep 1
 
 # Show logo
-curl -s https://raw.githubusercontent.com/halva-dev/halva/refs/heads/main/logo_script.sh | bash
+curl -s https://github.com/halva-dev/halva/blob/main/multiple.sh | bash
 
 # Menu
+
 echo -e "${YELLOW}Выберите действие:${NC}"
-echo -e "${CYAN}1) Установить ноду${NC}"
-echo -e "${CYAN}2) Проверить статус ноды${NC}"
-echo -e "${CYAN}3) Удалить ноду${NC}"
+echo -e "${CYAN}1) Установка ноды${NC}"
+echo -e "${CYAN}2) Проверка статуса ноды${NC}"
+echo -e "${CYAN}3) Удаление ноды${NC}"
 
 echo -e "${YELLOW}Введите номер:${NC} "
 read choice
 
+#echo -e "${YELLOW}Выберите действие:${NC}"
+#echo -e "${CYAN}1) Установить ноду${NC}"
+#echo -e "${CYAN}2) Проверить статус ноды${NC}"
+#echo -e "${CYAN}3) Удалить ноду${NC}"
+
+#echo -e "${YELLOW}Введите номер:${NC} "
+#read choice
 
 case $choice in
     1)
